@@ -1,7 +1,7 @@
 ﻿using RestSharp;
 using RestSharp.Authenticators;
 
-namespace Syncfusion.Report.Server.Api.Helper.Authentication
+namespace Syncfusion.Report.Server.API.Helper.Authentication
 {
     public class OAuth2 : OAuthAuthentication
     {

@@ -1,4 +1,4 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.Authentication
+﻿namespace Syncfusion.Report.Server.API.Helper.Authentication
 {
     public abstract class OAuthAuthentication : Authenticate
     {

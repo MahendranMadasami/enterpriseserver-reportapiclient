@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
-using Syncfusion.Report.Server.Api.Helper.V2.Models;
-using Syncfusion.Report.Server.Api.Helper.V3.Models;
+using Syncfusion.Report.Server.API.Helper.V2.Models;
+using Syncfusion.Report.Server.API.Helper.V3.Models;
 using Syncfusion.Report.Server.API.Helper.V3;
 using System;
 using System.Web.Http;
 
-namespace Syncfusion.Report.Server.Api.Helper.V3.EndPoints
+namespace Syncfusion.Report.Server.API.Helper.V3.EndPoints
 {
     public class ScheduleEndPoint
     {
@@ -76,6 +76,28 @@ namespace Syncfusion.Report.Server.Api.Helper.V3.EndPoints
             else
             {
                 return response;
+            }
+        }
+
+
+        /// <summary>
+        /// This method is used to run the specific schedule on-demand.
+        /// </summary>
+        /// <param name="scheduleId">scheduleId</param>
+        /// <returns>Status of the schedule run call.</returns>
+
+        public ApiResponse RunScheduledReport(Guid scheduleId)
+        {
+            var overrideUrl = _baseUrl + "/schedules/" + scheduleId+"/run";
+            var apiResponse = new ApiResponse();
+            var result = _serverClientV3.Get(apiResponse, overrideUrl);
+            if (result != null)
+            {
+                return JsonConvert.DeserializeObject<ApiResponse>(result.Content);
+            }
+            else
+            {
+                return apiResponse;
             }
         }
     }

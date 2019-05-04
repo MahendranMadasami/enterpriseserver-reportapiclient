@@ -1,6 +1,6 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V5.Models
+﻿namespace Syncfusion.Report.Server.API.Helper.V5.Models
 {
-    using Syncfusion.Report.Server.Api.Helper.V2.Models;
+    using Syncfusion.Report.Server.API.Helper.V2.Models;
     using System;
     using System.Runtime.Serialization;
 

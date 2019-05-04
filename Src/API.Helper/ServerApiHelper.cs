@@ -2,8 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using Syncfusion.Report.Server.Api.Helper.Utilities;
-using Syncfusion.Report.Server.Api.Helper.Authentication;
+using Syncfusion.Report.Server.API.Helper.Utilities;
+using Syncfusion.Report.Server.API.Helper.Authentication;
 
 namespace Syncfusion.Report.Server.API.Helper
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
-namespace Syncfusion.Report.Server.Api.Helper.Authentication
+namespace Syncfusion.Report.Server.API.Helper.Authentication
 {
     internal class RequestExecutor
     {

@@ -1,9 +1,9 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V4.EndPoints
+﻿namespace Syncfusion.Report.Server.API.Helper.V4.EndPoints
 {
     using System;
     using Newtonsoft.Json;
-    using Syncfusion.Report.Server.Api.Helper.V3.Models;
-    using Syncfusion.Report.Server.Api.Helper.V4.Models;
+    using Syncfusion.Report.Server.API.Helper.V3.Models;
+    using Syncfusion.Report.Server.API.Helper.V4.Models;
 
     public class ScheduleEndPointV4
     {

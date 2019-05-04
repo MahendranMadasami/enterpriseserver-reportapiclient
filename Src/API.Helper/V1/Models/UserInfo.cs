@@ -1,4 +1,4 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V1.Models
+﻿namespace Syncfusion.Report.Server.API.Helper.V1.Models
 {
     public class UserInfo : User
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Syncfusion.Report.Server.Api.Helper.V1.Models
+namespace Syncfusion.Report.Server.API.Helper.V1.Models
 {
     public enum UserStatus
     {

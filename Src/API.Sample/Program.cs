@@ -3,16 +3,16 @@ using System.IO;
 using System.Linq;
 using Syncfusion.Report.Server.API.Helper.V3;
 using Syncfusion.Report.Server.API.Helper.V2;
-using Syncfusion.Report.Server.Api.Helper.V1;
-using Syncfusion.Report.Server.Api.Helper.V3.Models;
-using Syncfusion.Report.Server.Api.Helper.V2.Models;
-using Syncfusion.Report.Server.Api.Helper.V1.Models;
+using Syncfusion.Report.Server.API.Helper.V1;
+using Syncfusion.Report.Server.API.Helper.V3.Models;
+using Syncfusion.Report.Server.API.Helper.V2.Models;
+using Syncfusion.Report.Server.API.Helper.V1.Models;
 using Syncfusion.Report.Server.API.Helper;
 using System;
-using Syncfusion.Report.Server.Api.Helper.V4;
-using Syncfusion.Report.Server.Api.Helper.V4.Models;
-using Syncfusion.Report.Server.Api.Helper.V5.Models;
-using Syncfusion.Report.Server.Api.Helper.V5;
+using Syncfusion.Report.Server.API.Helper.V4;
+using Syncfusion.Report.Server.API.Helper.V4.Models;
+using Syncfusion.Report.Server.API.Helper.V5.Models;
+using Syncfusion.Report.Server.API.Helper.V5;
 
 namespace Syncfusion.Report.Server.API.Sample
 {
@@ -328,11 +328,12 @@ namespace Syncfusion.Report.Server.API.Sample
 
             #region Add file
 
-            var addWidget = v2ApiObject.ItemsEndPoint().AddFile(new ApiFileAdd()
+            var addFile = v2ApiObject.ItemsEndPoint().AddFile(new ApiFileAdd()
             {
                 Name = "Sample file",
                 Description = "Testing purpose",
-                ItemContent = File.ReadAllBytes("../../sample file.txt")
+                ItemContent = File.ReadAllBytes("../../sample file.txt"),
+                Extension= ".txt"
             });
 
             #endregion
@@ -382,7 +383,7 @@ namespace Syncfusion.Report.Server.API.Sample
 
             #region Update file
 
-            var updateWidget = v2ApiObject.ItemsEndPoint().UpdateFile(new ApiFileUpdate()
+            var updateFile = v2ApiObject.ItemsEndPoint().UpdateFile(new ApiFileUpdate()
             {
                 ItemId = fileDetails.Id,
                 Description = "test",
@@ -658,6 +659,8 @@ namespace Syncfusion.Report.Server.API.Sample
                     EveryWeekday = true
                 }
             });
+
+            var runSchedule = v3ApiObject.ScheduleEndPoint3().RunScheduledReport(scheduleId);
 
             #endregion
 

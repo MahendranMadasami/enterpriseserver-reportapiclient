@@ -1,10 +1,10 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V4.Models
+﻿namespace Syncfusion.Report.Server.API.Helper.V4.Models
 {
     using System;
     using System.Collections.Generic;
     using System.Runtime.Serialization;
     using System.ComponentModel.DataAnnotations;
-    using Syncfusion.Report.Server.Api.Helper.V3.Models;
+    using Syncfusion.Report.Server.API.Helper.V3.Models;
 
     /// <summary>
     /// Details about the schedule passed will be added to the server.

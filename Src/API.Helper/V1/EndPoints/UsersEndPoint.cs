@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Syncfusion.Report.Server.Api.Helper.Authentication;
+using Syncfusion.Report.Server.API.Helper.Authentication;
 using Newtonsoft.Json;
-using Syncfusion.Report.Server.Api.Helper.V1;
-using Syncfusion.Report.Server.Api.Helper.V1.Models;
+using Syncfusion.Report.Server.API.Helper.V1;
+using Syncfusion.Report.Server.API.Helper.V1.Models;
 
 namespace Syncfusion.Report.Server.API.Helper.V1.EndPoints
 {

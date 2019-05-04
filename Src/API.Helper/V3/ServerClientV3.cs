@@ -1,4 +1,4 @@
-﻿using Syncfusion.Report.Server.Api.Helper.V3.EndPoints;
+﻿using Syncfusion.Report.Server.API.Helper.V3.EndPoints;
 
 namespace Syncfusion.Report.Server.API.Helper.V3
 {

@@ -1,4 +1,4 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V5.Models
+﻿namespace Syncfusion.Report.Server.API.Helper.V5.Models
 {
     using System;
 

@@ -1,4 +1,4 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.Authentication
+﻿namespace Syncfusion.Report.Server.API.Helper.Authentication
 {
     using RestSharp;
     using System.Collections.Generic;

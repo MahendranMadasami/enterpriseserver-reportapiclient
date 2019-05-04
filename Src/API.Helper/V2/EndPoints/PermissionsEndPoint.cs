@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Syncfusion.Report.Server.Api.Helper.V2.Models;
+using Syncfusion.Report.Server.API.Helper.V2.Models;
 using System.Collections.Generic;
 
 namespace Syncfusion.Report.Server.API.Helper.V2.EndPoints

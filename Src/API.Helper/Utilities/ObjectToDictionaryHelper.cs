@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace Syncfusion.Report.Server.Api.Helper.Utilities
+namespace Syncfusion.Report.Server.API.Helper.Utilities
 {
     public static class ObjectToDictionaryHelper
     {

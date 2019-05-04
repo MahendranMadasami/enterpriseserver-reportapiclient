@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
-using Syncfusion.Report.Server.Api.Helper.Authentication;
-using Syncfusion.Report.Server.Api.Helper.V2.Models;
+using Syncfusion.Report.Server.API.Helper.Authentication;
+using Syncfusion.Report.Server.API.Helper.V2.Models;
 using System;
 using System.Collections.Generic;
 using System.Web.Http;
@@ -189,7 +189,7 @@ namespace Syncfusion.Report.Server.API.Helper.V2.EndPoints
 
         public ApiItemResponse AddFile(ApiFileAdd apiFileAdd)
         {
-            var result = _serverClientV2.Post(apiFileAdd, _baseUrl + "/reports/files");
+            var result = _serverClientV2.Post(apiFileAdd, _baseUrl + "/files");
             var response = new ApiItemResponse();
             if (result != null)
             {
@@ -209,7 +209,7 @@ namespace Syncfusion.Report.Server.API.Helper.V2.EndPoints
 
         public ApiItemResponse UpdateFile(ApiFileUpdate apiFileUpdate)
         {
-            var requestUrl = _baseUrl + "/reports/files";
+            var requestUrl = _baseUrl + "/files";
             var result = _serverClientV2.Put(apiFileUpdate, requestUrl);
             var response = new ApiItemResponse();
             if (result != null)

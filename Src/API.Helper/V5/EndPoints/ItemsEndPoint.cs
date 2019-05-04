@@ -1,10 +1,10 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V5.EndPoints
+﻿namespace Syncfusion.Report.Server.API.Helper.V5.EndPoints
 {
     using System.Collections.Generic;
     using System.Web.Http;
     using Newtonsoft.Json;
-    using Syncfusion.Report.Server.Api.Helper.V2.Models;
-    using Syncfusion.Report.Server.Api.Helper.V5.Models;
+    using Syncfusion.Report.Server.API.Helper.V2.Models;
+    using Syncfusion.Report.Server.API.Helper.V5.Models;
 
     public class ItemsEndPoint
     {

@@ -1,6 +1,6 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V5
+﻿namespace Syncfusion.Report.Server.API.Helper.V5
 {
-    using Syncfusion.Report.Server.Api.Helper.V5.EndPoints;
+    using Syncfusion.Report.Server.API.Helper.V5.EndPoints;
     using Syncfusion.Report.Server.API.Helper;
 
     public sealed class ServerClientV5 : ServerApiHelper

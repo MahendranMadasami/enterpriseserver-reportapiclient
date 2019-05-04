@@ -1,7 +1,7 @@
 ﻿using Syncfusion.Report.Server.API.Helper;
 using Syncfusion.Report.Server.API.Helper.V1.EndPoints;
 
-namespace Syncfusion.Report.Server.Api.Helper.V1
+namespace Syncfusion.Report.Server.API.Helper.V1
 {
     public sealed class ServerClientV1 : ServerApiHelper
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Net;
 
-namespace Syncfusion.Report.Server.Api.Helper.Authentication
+namespace Syncfusion.Report.Server.API.Helper.Authentication
 {
     public class DataResponse<T>
     {

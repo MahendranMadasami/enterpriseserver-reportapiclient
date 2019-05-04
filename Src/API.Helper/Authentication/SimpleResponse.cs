@@ -2,7 +2,7 @@
 using System.Net;
 using System.Runtime.Serialization;
 
-namespace Syncfusion.Report.Server.Api.Helper.Authentication
+namespace Syncfusion.Report.Server.API.Helper.Authentication
 {
     public class SimpleResponse 
     {

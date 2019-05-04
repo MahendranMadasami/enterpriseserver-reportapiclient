@@ -1,4 +1,4 @@
-﻿using Syncfusion.Report.Server.Api.Helper.V4.EndPoints;
+﻿using Syncfusion.Report.Server.API.Helper.V4.EndPoints;
 using Syncfusion.Report.Server.API.Helper;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Syncfusion.Report.Server.Api.Helper.V4
+namespace Syncfusion.Report.Server.API.Helper.V4
 {
     public sealed class ServerClientV4 : ServerApiHelper
     {

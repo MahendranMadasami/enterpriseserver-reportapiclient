@@ -1,4 +1,4 @@
-﻿namespace Syncfusion.Report.Server.Api.Helper.V3.Models
+﻿namespace Syncfusion.Report.Server.API.Helper.V3.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;
